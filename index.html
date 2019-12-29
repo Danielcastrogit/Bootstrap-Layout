@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="description" content="Layout em Bootstrap">
+    <meta name="keywords" content="Site, Bootstrap, Layout,">
+    <meta name="author" content="Daniel Castro">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" >
+
+    <!-- Estilo customizado -->
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+
+    <title>Projeto Layout</title>
+
+    <style type="text/css">
+      
+
+      #home{
+      background-color: #0080FF; color: white;
+      }
+
+      .caixa{
+      padding:60px 0;
+      border-bottom: 1px solid #e5e5e5;
+      }
+
+      footer p a{
+      margin: 5px 15px;
+      }
+
+
+    </style>
+  </head>
+  <body>
+
+    <header> <!-- Início cabeçalho e Menu -->
+        <!-- Navegação -->
+        <nav class="navbar navbar-expand-sm navbar-light bg-primary">
+        <div class="container">
+          <a href="#" class="navbar-brand">
+          <!-- Imagem Logo -->
+          <img src="img/logo.png" width="250">
+          </a>
+
+          <!-- Botão tres traços para SmartPhone --> 
+          <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-principal">
+          <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse  navbar-collapse" id="nav-principal">
+            <!-- lista -->
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a href="" class="nav-link">Home</a>
+              </li> 
+              <li class="nav-item">
+                <a href="" class="nav-link">Sobre mim</a>
+              </li> 
+              <li class="nav-item">
+                <a href="" class="nav-link">Desenvolvimento</a>
+              </li> 
+              <li class="nav-item">
+                <a href="" class="btn btn-outline-light ml-4">Entrar</a>
+              </li>              
+            </ul>
+
+
+          </div>
+
+        </div>  
+        </nav>      
+    </header> <!-- Fim do cabeçalho e do Menu -->
+
+
+    <!-- Início da Section -->
+    <section id="home">
+      <div class="container">
+      <div class="row">
+          <div class="col-md-6 d-flex"> 
+              <div class="align-self-center">
+              <h1 class="display-4">Seu sistema dentro do prazo</h1> 
+              <p> Para quem procura solução em desenvolvimento e tecnologia.</p>
+
+              <!-- formulario -->
+              <form class="mt-4 mb-4">
+                <div class="input-group input-group-lg">
+                <input type="text" placeholder="seu e-mail" class="form-control">
+                <div class="input-group-append">               
+                  <button type="button" class="btn btn-primary">Cadastre-se</button> 
+                </div>              
+                </div>
+              </p>
+              </form>
+
+              <!-- disponível Android -->
+              <p> Disponível para 
+              <a href="" class="btn btn-outline-light">
+              <i class="fab fa-android fa-lg"></i>
+              </a>
+
+              <a href="" class="btn btn-outline-light">
+              <i class="fab fa-apple"></i>
+              </a>
+              </p>
+
+              </div>         
+          </div>
+
+          <!-- Coluna da imagem -->
+          <div class="col-md-6 d-none d-sm-block" > 
+            <img src="img/eu.png">
+          </div>        
+      </div>
+      </div>      
+    </section><!-- Fim da seção -->
+
+
+
+    <section class="caixa"><!-- Início da seção de conteúdo -->  
+    <div class="container">
+    <div class="row">
+    <div class="col-md-6 d-flex">
+      <div class="align-self-center">
+      <h2> Saiba como o seu sistema pode impactar sua empresa</h2>
+      <p>Com tecnologia de ponta, você economiza tempo, gastos e soluciona problemas de forma significativa. 
+      È possível atingir bons resultados obtendo bons recursos de tecnologia </p>
+      <a href="" class="btn btn-primary">Veja mais</a>
+      </div>
+    </div>
+    <div class="col-md-6">
+    <img src="img/saiba.png" class="img-fluid">
+    </div>
+    </div>
+    </div>
+    </section><!-- Fim da seção -->
+
+
+    <section class="caixa"><!-- segunda seção  -->  
+      <div class="container">
+      <div class="row">
+      <div class="col-md-6">
+      <img src="img/juros.png" class="img-fluid">
+      </div>
+      <div class="col-md-6 d-flex">
+        <div class="align-self-center">
+        <h2> Não perca mais tempo </h2>
+        <p> Manter os sitemas em dia é sempre um problema? Eu aprendi que
+        bons conceitos e boas práticas de programação, é possível alcançar bons patamares
+        </p>
+        <a href="" class="btn btn-primary">Veja mais</a>
+        </div>
+      </div>    
+      </div>
+      </div>
+    </section><!-- Fim da segunda seção -->
+
+
+    <section class="caixa"><!-- segunda seção  -->  
+      <div class="container">
+      <div class="row">
+
+       <!-- Imagem 1 -->  
+       <div class="col-md-4">
+       <img src="img/facil.png" class="img-fluid">
+       <h4>Pontualidade</h4>
+       <p>A pontualidade é sinônima da eficácia e da responsabilidade, ambas andam sempre juntas
+        para que as soluções sejam sempre entregues a tempo.
+       </p>
+       </div>
+
+       <!-- Imagem 2 -->
+       <div class="col-md-4"> 
+       <img src="img/economize.png" class="img-fluid">
+       <h4>Fácil de dar manutenção</h4>
+       <p>Bons programadores constroem códigos de fácil leitura, para que outros prorgamadores não encontrem
+         dificuldades para dar manutenção
+       </p>
+       </div>  
+
+       <!-- Imagem 3 -->
+       <div class="col-md-4">
+       <img src="img/suporte.png" class="img-fluid">
+       <h4>Seguro</h4>
+       <p>Bons sistemas possuem segurança afim de proteger e se precaver de acidentes e surpresas indesejadas.</p>
+       </div>   
+
+      </div>
+      </div>
+    </section><!-- Fim da segunda seção -->
+
+    <footer class="mt-4 mb-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8">
+          <p>
+          <a href="">Home</a>
+          <a href="">Recursos</a>
+          <a href="">Benefícios</a>
+          <a href="">Preços</a>
+          </p>
+          </div>
+
+          <div class="col-md-4 d-flex justify-content-end">
+           <a href="" class="btn btn-outline-dark"><i class="fab fa-facebook"></i></a>
+           <a href="" class="btn btn-outline-dark  ml-2"><i class="fab fa-twitter"></i></a>
+           <a href="" class="btn btn-outline-dark  ml-2"><i class="fab fa-instagram"></i></a>
+           <a href="" class="btn btn-outline-dark ml-2"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+      </div>
+      
+    </footer>
+    
+
+    <!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>
